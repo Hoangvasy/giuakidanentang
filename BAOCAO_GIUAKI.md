@@ -9,7 +9,7 @@
 - **Mã số sinh viên (MSSV):** 23IT241
 - **Lớp / Khóa:** *(Điền tên lớp vào đây)*
 - **Giảng viên hướng dẫn:** *(Điền tên Giảng viên vào đây)*
-- **Link GitHub Source Code:** `https://github.com/HoangVanSy23IT241/giuaki-danentang`
+- **Link GitHub Source Code:** https://github.com/Hoangvasy/giuakidanentang
 - **Link Video Demo:** `https://youtu.be/...` *(Link video Youtube hoặc Google Drive)*
 - **File Cơ sở dữ liệu đính kèm:** `database_users.json`
 
