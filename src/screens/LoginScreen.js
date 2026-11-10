@@ -62,7 +62,7 @@ export default function LoginScreen({ onLoginSuccess }) {
 
   return (
     <KeyboardAvoidingView
-      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
       style={styles.container}
     >
       <ScrollView
@@ -164,12 +164,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#F3F4F6',
+    ...(Platform.OS === 'web' ? { minHeight: '100vh', height: '100%' } : {}),
   },
   scrollContent: {
     flexGrow: 1,
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
+    ...(Platform.OS === 'web' ? { minHeight: '100vh' } : {}),
   },
   card: {
     backgroundColor: '#fff',

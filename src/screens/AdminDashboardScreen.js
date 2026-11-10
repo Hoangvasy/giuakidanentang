@@ -487,6 +487,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#F3F4F6',
+    ...(Platform.OS === 'web' ? { minHeight: '100vh', height: '100%' } : {}),
   },
   appBar: {
     flexDirection: 'row',
